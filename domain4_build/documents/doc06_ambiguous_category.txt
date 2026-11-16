@@ -1,0 +1,15 @@
+INVOICE #INV-1006
+Vendor: Greenfield Landscaping Co-op
+
+Line Items:
+- Seasonal Garden Maintenance: $600.00
+- Mulch and Soil Delivery: $140.00
+
+Total: $740.00
+Tax ID: GF-2291
+Due Date: 2026-11-20
+Status: Unpaid
+
+(This invoice is for landscaping services -- doesn't fit any of the
+predefined categories (software/consulting/hardware/travel). Tests the
+'other' + category_detail escape hatch.)

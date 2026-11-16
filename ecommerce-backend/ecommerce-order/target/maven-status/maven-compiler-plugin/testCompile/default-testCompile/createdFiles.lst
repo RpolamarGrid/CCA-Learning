@@ -1,0 +1,3 @@
+com/ecommerce/order/entity/OrderTest.class
+com/ecommerce/order/entity/OrderStatusTest.class
+com/ecommerce/order/service/CheckoutServiceTest.class

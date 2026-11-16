@@ -1,0 +1,16 @@
+INVOICE #INV-1010
+Vendor: Global Consulting Partners
+
+Line Items:
+- Market Research Report: $1,500.00
+- Translation Services: EUR 300.00 (approx $320.00)
+
+Total Due: $1800.00 USD (combined, converted)
+Tax ID: GCP-TAX-3321
+Due Date: 2026-11-25
+Status: Paid in full
+
+(Mixed-currency line item is a realistic edge case -- the stated total
+assumes a conversion that may not be fully traceable from the two
+line amounts alone. Good test of calculated_total vs stated_total
+behaviour under genuine ambiguity, not just a clean arithmetic error.)

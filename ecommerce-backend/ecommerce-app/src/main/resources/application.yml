@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: ecommerce-app
+  profiles:
+    active: local
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+
+app:
+  jwt:
+    signing-key: ${JWT_SIGNING_KEY:change-this-dev-only-secret-key-please-rotate-0123456789}
+    access-ttl-minutes: 15
+    refresh-ttl-minutes: 10080
+  payment:
+    default-gateway: PHONEPE
+    callback-url: ${PHONEPE_CALLBACK_URL:http://localhost:8080/api/payments/phonepe/webhook}
+    phonepe:
+      merchant-id: ${PHONEPE_MERCHANT_ID:SANDBOX_MERCHANT_ID}
+      salt-key: ${PHONEPE_SALT_KEY:SANDBOX_SALT_KEY}
+      salt-index: ${PHONEPE_SALT_INDEX:1}
+      base-url: ${PHONEPE_BASE_URL:https://api-preprod.phonepe.com/apis/pg-sandbox}
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      phonePeGateway:
+        sliding-window-size: 10
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 10s
+      otpSender:
+        sliding-window-size: 10
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 10s
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.ecommerce: INFO

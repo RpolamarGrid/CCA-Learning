@@ -1,0 +1,14 @@
+INVOICE #INV-1007
+Vendor: Pinecrest IT Hardware
+
+Line Items:
+- 3x Laptop Docking Stations: $450.00
+- Replacement Cables (x10): $90.00
+
+Total Due: $540.00
+Tax ID: PC-TAX-0098
+Due Date: 2026-11-10
+
+(No payment status is mentioned anywhere in this document -- tests whether
+the extractor correctly returns 'unclear' rather than guessing 'unpaid'
+just because no payment confirmation is mentioned.)

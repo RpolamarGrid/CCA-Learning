@@ -1,0 +1,10 @@
+com/ecommerce/catalog/repository/ProductRepository.class
+com/ecommerce/catalog/web/ProductController.class
+com/ecommerce/catalog/dto/ProductResponse.class
+com/ecommerce/catalog/repository/CategoryRepository.class
+com/ecommerce/catalog/entity/Category.class
+com/ecommerce/catalog/web/AdminProductController.class
+com/ecommerce/catalog/entity/Product.class
+com/ecommerce/catalog/service/ProductService.class
+com/ecommerce/catalog/spec/ProductSpecifications.class
+com/ecommerce/catalog/dto/ProductUpsertRequest.class

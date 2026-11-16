@@ -1,0 +1,15 @@
+INVOICE #INV-1003
+Vendor: Hardwear Supplies Inc
+
+Line Items:
+- 10x Mechanical Keyboards: $800.00
+- 5x Monitor Stands: $250.00
+- Shipping: $75.00
+
+Total Due: $1200.00
+
+(Note: the line items actually sum to $1125.00, not $1200.00 -- this
+document intentionally contains a stated total that does NOT match the
+sum of line items, to test calculated_total vs stated_total detection.)
+Tax ID: HW-TAX-4412
+Status: Paid

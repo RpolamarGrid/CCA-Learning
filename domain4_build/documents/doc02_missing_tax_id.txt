@@ -1,0 +1,12 @@
+INVOICE #INV-1002
+Vendor: Brightline Consulting
+
+Line Items:
+- Strategy Workshop (2 days): $4000.00
+- Travel Expenses: $450.00
+
+Total: $4450.00
+Due Date: 2026-12-01
+
+(No tax ID is printed anywhere on this invoice -- this is intentional, to
+test whether the extractor correctly returns null instead of inventing one.)

@@ -1,0 +1,4 @@
+com/ecommerce/inventory/event/InventoryShortfallEvent.class
+com/ecommerce/inventory/entity/Inventory.class
+com/ecommerce/inventory/service/InventoryService.class
+com/ecommerce/inventory/repository/InventoryRepository.class

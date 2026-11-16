@@ -1,0 +1,10 @@
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-catalog/src/main/java/com/ecommerce/catalog/dto/ProductResponse.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-catalog/src/main/java/com/ecommerce/catalog/dto/ProductUpsertRequest.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-catalog/src/main/java/com/ecommerce/catalog/entity/Category.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-catalog/src/main/java/com/ecommerce/catalog/entity/Product.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-catalog/src/main/java/com/ecommerce/catalog/repository/CategoryRepository.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-catalog/src/main/java/com/ecommerce/catalog/repository/ProductRepository.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-catalog/src/main/java/com/ecommerce/catalog/service/ProductService.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-catalog/src/main/java/com/ecommerce/catalog/spec/ProductSpecifications.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-catalog/src/main/java/com/ecommerce/catalog/web/AdminProductController.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-catalog/src/main/java/com/ecommerce/catalog/web/ProductController.java

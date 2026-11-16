@@ -1,0 +1,7 @@
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-common/src/main/java/com/ecommerce/common/dto/ApiResponse.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-common/src/main/java/com/ecommerce/common/dto/PageResponse.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-common/src/main/java/com/ecommerce/common/entity/BaseEntity.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-common/src/main/java/com/ecommerce/common/exception/BusinessException.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-common/src/main/java/com/ecommerce/common/exception/NotFoundException.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-common/src/main/java/com/ecommerce/common/exception/UnauthorizedException.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-common/src/main/java/com/ecommerce/common/web/GlobalExceptionHandler.java

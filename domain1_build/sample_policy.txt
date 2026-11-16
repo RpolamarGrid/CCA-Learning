@@ -1,0 +1,25 @@
+[PAGE 1]
+Acme Corp Refund and Account Policy — Internal Reference
+
+Section 1: Identity Verification
+All refund requests must undergo account ownership verification before any
+refund is issued. Verification requires matching the requester's provided
+order ID against the account email on file. Support agents have historically
+skipped this step under time pressure, which has led to refunds being issued
+to the wrong customer in approximately 8% of cases reviewed in Q3.
+
+[PAGE 2]
+Section 2: Refund Thresholds
+Refunds under $500 may be processed directly by a support agent once identity
+is verified. Refunds of $500 or more require manager sign-off in addition to
+identity verification. This threshold exists because high-value refunds carry
+disproportionate fraud risk and financial exposure if issued incorrectly.
+
+[PAGE 3]
+Section 3: Escalation to Human Review
+When a case is escalated to a human agent, the human agent does NOT have
+access to the customer's chat transcript. The escalation handoff must
+therefore include: customer ID, a summary of the conversation, root cause
+analysis, the refund amount if applicable, and a recommended action. Handoffs
+that merely reference "see above" are considered non-compliant with this
+policy, since the human reviewer cannot see any prior conversation.

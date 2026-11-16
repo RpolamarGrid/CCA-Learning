@@ -1,0 +1,10 @@
+INVOICE #INV-1009
+Vendor: QuickFix Repairs
+
+- Repair labour: $220.00
+
+Total: $220.00
+
+(This document is deliberately sparse -- no tax ID, no due date, no payment
+status, no category hints beyond a generic repair service. Tests multiple
+nullable fields and 'unclear'/'other' simultaneously.)

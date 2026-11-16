@@ -1,0 +1,12 @@
+INVOICE #INV-1005 | Vendor: TransGlobal Freight
+
+| Item                  | Amount   |
+|-----------------------|----------|
+| Container Shipping    | 3,100.00 |
+| Customs Processing    | 220.00   |
+| Insurance             | 180.00   |
+
+TOTAL: 3,500.00
+Tax ID: not provided
+Payment Status: Partially Paid (deposit received)
+Due Date: unspecified

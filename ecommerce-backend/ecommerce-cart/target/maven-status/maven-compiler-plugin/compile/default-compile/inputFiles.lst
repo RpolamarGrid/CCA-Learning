@@ -1,0 +1,5 @@
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-cart/src/main/java/com/ecommerce/cart/dto/AddCartItemRequest.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-cart/src/main/java/com/ecommerce/cart/model/Cart.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-cart/src/main/java/com/ecommerce/cart/model/CartItem.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-cart/src/main/java/com/ecommerce/cart/service/CartService.java
+/Users/rpolamarasetti/Desktop/2026/CCA/ecommerce-backend/ecommerce-cart/src/main/java/com/ecommerce/cart/web/CartController.java

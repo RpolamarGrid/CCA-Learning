@@ -1,0 +1,273 @@
+[
+  {
+    "label": "doc01_standard",
+    "attempts": 1,
+    "data": {
+      "invoice_number": "INV-1001",
+      "vendor_name": "Acme Software Ltd",
+      "stated_total": 1500.0,
+      "calculated_total": 1500.0,
+      "line_items": [
+        {
+          "description": "Annual SaaS License",
+          "amount": 1200.0
+        },
+        {
+          "description": "Onboarding Support",
+          "amount": 300.0
+        }
+      ],
+      "category": "software",
+      "payment_status": "unpaid",
+      "conflict_detected": false,
+      "tax_id": "TAX-998877",
+      "due_date": "2026-11-15"
+    },
+    "final_errors": []
+  },
+  {
+    "label": "doc02_missing_tax_id",
+    "attempts": 1,
+    "data": {
+      "invoice_number": "INV-1002",
+      "vendor_name": "Brightline Consulting",
+      "stated_total": 4450.0,
+      "calculated_total": 4450.0,
+      "line_items": [
+        {
+          "description": "Strategy Workshop (2 days)",
+          "amount": 4000.0
+        },
+        {
+          "description": "Travel Expenses",
+          "amount": 450.0
+        }
+      ],
+      "category": "consulting",
+      "payment_status": "unclear",
+      "conflict_detected": false,
+      "due_date": "2026-12-01",
+      "tax_id": null
+    },
+    "final_errors": []
+  },
+  {
+    "label": "doc03_mismatched_total",
+    "attempts": 1,
+    "data": {
+      "invoice_number": "INV-1003",
+      "vendor_name": "Hardwear Supplies Inc",
+      "stated_total": 1200.0,
+      "calculated_total": 1125.0,
+      "line_items": [
+        {
+          "description": "10x Mechanical Keyboards",
+          "amount": 800.0
+        },
+        {
+          "description": "5x Monitor Stands",
+          "amount": 250.0
+        },
+        {
+          "description": "Shipping",
+          "amount": 75.0
+        }
+      ],
+      "category": "hardware",
+      "payment_status": "paid",
+      "conflict_detected": true,
+      "conflict_detail": "Stated total ($1200.00) does not match the sum of line items ($1125.00).",
+      "tax_id": "HW-TAX-4412"
+    },
+    "final_errors": []
+  },
+  {
+    "label": "doc04_narrative_style",
+    "attempts": 1,
+    "data": {
+      "invoice_number": "INV-1004",
+      "vendor_name": "Lighthouse Legal Partners",
+      "stated_total": 2550,
+      "calculated_total": 2550,
+      "line_items": [
+        {
+          "description": "Contract review services",
+          "amount": 2200
+        },
+        {
+          "description": "Follow-up consultation session",
+          "amount": 350
+        }
+      ],
+      "category": "consulting",
+      "payment_status": "unpaid",
+      "conflict_detected": false,
+      "due_date": "2026-11-28",
+      "tax_id": "LLP-TAX-7781"
+    },
+    "final_errors": []
+  },
+  {
+    "label": "doc05_table_style",
+    "attempts": 1,
+    "data": {
+      "invoice_number": "INV-1005",
+      "vendor_name": "TransGlobal Freight",
+      "stated_total": 3500.0,
+      "calculated_total": 3500.0,
+      "line_items": [
+        {
+          "description": "Container Shipping",
+          "amount": 3100.0
+        },
+        {
+          "description": "Customs Processing",
+          "amount": 220.0
+        },
+        {
+          "description": "Insurance",
+          "amount": 180.0
+        }
+      ],
+      "category": "travel",
+      "payment_status": "partially_paid",
+      "conflict_detected": false,
+      "tax_id": null,
+      "due_date": null
+    },
+    "final_errors": []
+  },
+  {
+    "label": "doc06_ambiguous_category",
+    "attempts": 1,
+    "data": {
+      "invoice_number": "INV-1006",
+      "vendor_name": "Greenfield Landscaping Co-op",
+      "stated_total": 740.0,
+      "calculated_total": 740.0,
+      "line_items": [
+        {
+          "description": "Seasonal Garden Maintenance",
+          "amount": 600.0
+        },
+        {
+          "description": "Mulch and Soil Delivery",
+          "amount": 140.0
+        }
+      ],
+      "category": "other",
+      "category_detail": "Landscaping services",
+      "payment_status": "unpaid",
+      "conflict_detected": false,
+      "tax_id": "GF-2291",
+      "due_date": "2026-11-20"
+    },
+    "final_errors": []
+  },
+  {
+    "label": "doc07_unclear_payment_status",
+    "attempts": 1,
+    "data": {
+      "invoice_number": "INV-1007",
+      "vendor_name": "Pinecrest IT Hardware",
+      "stated_total": 540.0,
+      "calculated_total": 540.0,
+      "line_items": [
+        {
+          "description": "3x Laptop Docking Stations",
+          "amount": 450.0
+        },
+        {
+          "description": "Replacement Cables (x10)",
+          "amount": 90.0
+        }
+      ],
+      "category": "hardware",
+      "payment_status": "unclear",
+      "conflict_detected": false,
+      "tax_id": "PC-TAX-0098",
+      "due_date": "2026-11-10"
+    },
+    "final_errors": []
+  },
+  {
+    "label": "doc08_inline_citation_style",
+    "attempts": 1,
+    "data": {
+      "invoice_number": "INV-1008",
+      "vendor_name": "Meridian Travel Agency",
+      "stated_total": 2930.0,
+      "calculated_total": 2930.0,
+      "line_items": [
+        {
+          "description": "Flight booking for executive travel",
+          "amount": 1850.0
+        },
+        {
+          "description": "Hotel accommodation (4 nights)",
+          "amount": 960.0
+        },
+        {
+          "description": "Airport transfer service",
+          "amount": 120.0
+        }
+      ],
+      "category": "travel",
+      "payment_status": "unpaid",
+      "conflict_detected": false,
+      "due_date": "2026-12-05",
+      "tax_id": "MT-TAX-5567"
+    },
+    "final_errors": []
+  },
+  {
+    "label": "doc09_minimal_info",
+    "attempts": 1,
+    "data": {
+      "invoice_number": "INV-1009",
+      "vendor_name": "QuickFix Repairs",
+      "stated_total": 220.0,
+      "calculated_total": 220.0,
+      "line_items": [
+        {
+          "description": "Repair labour",
+          "amount": 220.0
+        }
+      ],
+      "category": "other",
+      "category_detail": "General repair service",
+      "payment_status": "unclear",
+      "conflict_detected": false,
+      "due_date": null,
+      "tax_id": null
+    },
+    "final_errors": []
+  },
+  {
+    "label": "doc10_multi_currency_confusing",
+    "attempts": 1,
+    "data": {
+      "invoice_number": "INV-1010",
+      "vendor_name": "Global Consulting Partners",
+      "stated_total": 1800.0,
+      "calculated_total": 1820.0,
+      "line_items": [
+        {
+          "description": "Market Research Report",
+          "amount": 1500.0
+        },
+        {
+          "description": "Translation Services (EUR 300.00, approx $320.00)",
+          "amount": 320.0
+        }
+      ],
+      "category": "consulting",
+      "payment_status": "paid",
+      "conflict_detected": true,
+      "conflict_detail": "Stated total ($1800.00) does not match sum of line items ($1820.00 using the approximate USD conversion of EUR 300). The translation services amount is given in EUR with only an approximate USD conversion, so the discrepancy may stem from currency conversion rates not fully traceable from the document.",
+      "tax_id": "GCP-TAX-3321",
+      "due_date": "2026-11-25"
+    },
+    "final_errors": []
+  }
+]
